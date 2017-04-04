@@ -1,0 +1,11 @@
+#header-top {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+#header-top .logo-container {
+  text-align: left;
+}
+#header-top .logo-container img {
+  width: 250px;
+}
