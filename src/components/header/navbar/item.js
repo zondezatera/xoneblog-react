@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class ItemView extends Component {
-  render() {
-    return (
-      <div>
-        
-      </div>
-    );
-  }
-}
+const ItemView = (props) => {
+  return (
+    <li>
+      <a href={props.link}>{props.title}</a>
+    </li>
+  );
+};
 
 export default ItemView;

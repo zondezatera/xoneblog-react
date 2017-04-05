@@ -1,0 +1,34 @@
+#navitem-list-view {
+  background: rgba(117,137,12,1);
+  background: -moz-linear-gradient(top, rgba(117,137,12,1) 0%, rgba(146,184,11,1) 73%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(117,137,12,1)), color-stop(73%, rgba(146,184,11,1)));
+  background: -webkit-linear-gradient(top, rgba(117,137,12,1) 0%, rgba(146,184,11,1) 73%);
+  background: -o-linear-gradient(top, rgba(117,137,12,1) 0%, rgba(146,184,11,1) 73%);
+  background: -ms-linear-gradient(top, rgba(117,137,12,1) 0%, rgba(146,184,11,1) 73%);
+  background: linear-gradient(to bottom, rgba(117,137,12,1) 0%, rgba(146,184,11,1) 73%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75890c', endColorstr='#92b80b', GradientType=0 );
+  margin-top: 20px;
+  height: 38px;
+}
+#navitem-list-view .item-list-view{
+  margin: 0 auto;
+  width: 960px;
+}
+
+#navitem-list-view .item-list-view ul {
+  padding: 0;
+}
+
+#navitem-list-view .item-list-view ul li{
+  padding: 2px 8px;
+  border-top: none;
+  display: inline-block;
+  list-style-type: none;
+}
+
+#navitem-list-view .item-list-view ul li a{
+  color: #fff;
+  font-size: 17px;
+  line-height: 36px;
+  text-decoration: none;
+}

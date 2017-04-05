@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../public/logo-white-2x.png';
-import './App.css';
-import Header from './containers/header';
+import Header from './containers/header/index';
+import Content from './containers/content/index';
 
 class App extends Component {
   render() {
@@ -10,7 +10,7 @@ class App extends Component {
         <Header 
           dataSource={logo}
         />
-        {/*<Content />*/}
+        <Content />
       </div>
     );
   }

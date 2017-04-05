@@ -5,7 +5,9 @@
 }
 #header-top .logo-container {
   text-align: left;
+  padding-top: 32px;
+  margin-right: 10px;
 }
 #header-top .logo-container img {
-  width: 250px;
+  width: 210px;
 }

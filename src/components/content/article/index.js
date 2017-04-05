@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import ItemListView from './itemlist';
 import './style.css';
-
-class HeaderNavBar extends Component {
+class ArticleListView extends Component {
   render() {
     return (
-      <div id="navitem-list-view">
+      <div id="articleitem-list-view">
         <ItemListView />
       </div>
     );
   }
 }
 
-export default HeaderNavBar;
+export default ArticleListView;
