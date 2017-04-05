@@ -7,7 +7,7 @@ class ContentContainer extends Component {
   render() {
     return (
       <div id="content">
-        <ConntentArticle />
+        <ConntentArticle {...this.props} />
         <ConntentSideBar />
       </div>
     );

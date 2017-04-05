@@ -5,7 +5,7 @@ class ArticleListView extends Component {
   render() {
     return (
       <div id="articleitem-list-view">
-        <ItemListView />
+        <ItemListView {...this.props} />
       </div>
     );
   }

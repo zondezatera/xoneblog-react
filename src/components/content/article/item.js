@@ -15,6 +15,9 @@ class ItemView extends Component {
   renderRowContent() {
     return (
       <div className="content-view">
+        <div className="meta">
+          <span>{`By: ${this.props.userprofile.name}`}</span>
+        </div>
         <div className="view-thumbnails">
           <img src={this.props.thumbnails} />
         </div>
